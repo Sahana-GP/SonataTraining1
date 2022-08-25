@@ -11,8 +11,8 @@ public class EmpExct {
 		e1.setEmpName("sahana");
 		e1.setEmplSal(1000);
 		EmpImpl e2 = new EmpImpl();
-		System.out.println(e2.yearlySal(e1));
-		System.out.println(e2.appSal(e1));
+		System.err.println(e2.yearlySal(e1));
+		System.err.println(e2.appSal(e1));
 
 	}
 
