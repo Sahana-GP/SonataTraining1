@@ -18,7 +18,7 @@ class EmpTest {
         e1.setEmpid(108);
         e1.setEmpname("veer");
         e1.setEmpsal(6500.00);
-        assertEquals(0, ep1.save(e1));
+        assertEquals(1, ep1.save(e1));
     }
     
     @Test
